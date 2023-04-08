@@ -69,13 +69,6 @@ footer {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding: 2rem;
-  position: fixed;
-  height: 30px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 
 footer>img {
   width: auto;
