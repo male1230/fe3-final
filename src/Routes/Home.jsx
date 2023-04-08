@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <main className={theme}>
-      <h1>Home</h1>
+      <h1>Inicio</h1>
       <div className="card-grid">
         {newData}
       </div>

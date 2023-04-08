@@ -17,7 +17,7 @@ const Form = () => {
     setIsValidEmail(emailRegex.test(contact.email));
     console.log(contact.name.length > 5 ? true : false);
     setIsValidName(contact.name.length > 5 ? true : false);
-    console.log("el coorreo es valido ", isValidEmail);
+    console.log("el correo es valido ", isValidEmail);
   }
 
   return (

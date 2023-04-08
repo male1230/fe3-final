@@ -41,10 +41,10 @@ nav {
 
 
 nav >button {
-  background-color: #12121296;
+  background-color: #00000096;
   border-radius: 3px;
-  color: white;
-  font-size: 1em;
+  color: yellow;
+  font-size: 1.5em;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -65,10 +65,15 @@ a:hover {
 }
 
 footer {
-  background-color:mediumturquoise;
+  background-color: mediumturquoise;
   display: flex;
   justify-content: space-between;
   text-align: center;
+  padding: 1.5rem;
+  position: relative;
+  bottom: 0;
+  height: 40px;
+  margin-top:7rem;
 }
 
 footer>img {
@@ -207,12 +212,25 @@ img {
   width: 100%;
 }
 
+.dentist{
+  border-color: darkgrey;
+  background-size: 30px;
+  border-radius: 20px;
+  background-color: mediumturquoise;
+  padding: 5px 20px 5px 20px;
+  width: fit-content;
+}
+
 .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
   text-align: center;
   border-radius: 20px;
   background-image: url("./images/dentista.png");
   background-repeat: no-repeat;
-  background-size: 150px;
-  background-position-y: 50% ;
-  background-position-x: 35%;
+  background-size: 180px;
+  background-position-y: 85% ;
+  background-position-x: 32%;
 }
